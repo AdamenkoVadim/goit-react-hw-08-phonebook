@@ -2,7 +2,7 @@ import css from './ContactList.module.css';
 import { ContactItem } from 'components/ContactItem/ContactItem';
 import { nanoid } from 'nanoid';
 import { useSelector } from 'react-redux';
-import { getContacts, getFilter } from 'redux/selectors';
+import { getContacts, getFilter } from 'redux/contacts/selectors';
 
 export const ContactList = () => {
   const contacts = useSelector(getContacts);

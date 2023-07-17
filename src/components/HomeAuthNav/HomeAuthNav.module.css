@@ -1,0 +1,13 @@
+.homeauthnav {
+  margin-top: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+}
+
+.homeauthnav__link {
+  text-decoration: none;
+  font-size: 24px;
+  font-weight: 700;
+}
